@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3, h4 {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+p {
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: 600;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+
+
+
+header {
+    background-color: blue;
+    border-bottom: 1px solid #eee;
+    padding: 15px 0;
+    top: 0;
+    text-align: center;
+
+}
+
+.contact {
+    margin-top: 90px;
+    border-bottom: 1px solid white;
+    font-size: 1.7rem;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #fff;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.Headerbottons {
+align-items: center;
+justify-content: space-between;
+
+}
+.main-nav a {
+    font-weight: 450;
+    font-size: 15px;
+    color: white;
+    transition: color 0.3s ease;
+    margin-left: 50px;
+}
+
+.main-nav a:hover {
+    color: black;
+}
+
+
+.login-btn a {
+    padding: 10px 20px;
+    border: 1px solid BLACK;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    margin-left: 400px;
+    border-radius: 50px;
+}
+
+.loginme {
+    color: black;
+}
+
+.aboutme {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.gmail {
+    color: blue;
+    transition: 0.4s;
+}
+
+.gmail :hover {
+    color: black;
+}
+
+
+
+footer {
+    padding: 0px 0 10px;
+    padding-top: 20px;
+    margin-top: 50px;
+    padding-bottom: 0px;
+}
+
+.footer-bottom {
+    background-color: blue;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-bottom: 0px;
+}
+
+.footer-about {
+    max-width: 400px;
+}
+
+
+
+.footer-about p {
+    color: black;
+}
+
+.footer-links {
+    color: black;
+}
+
+.footer-links-group {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.footer-links h4 {
+    color: black;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.footer-links ul {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #796868;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: black;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border-top: 1px solid #444;
+}
+
+.footer-bottom p {
+    color: #bbb;
+    font-size: 1.2rem;
+}
+
+
+@media (max-width: 992px) {
+    .header-container, .data-insight-section .container, .footer-container {
+        flex-direction: row;
+        display: flex;
+        align-items: justify;
+        text-align: center;
+    }
+    .main-nav ul {
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .footer-links-group {
+        justify-content: center;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .data-insight-section .container, .benefits-grid, .steps-grid {
+        flex-direction: row;
+    }
+    .data-text, .data-card, .benefit-item, .step-item {
+        width: 100%;
+        max-width: none;
+    }
+      .header-container, .data-insight-section .container, .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .main-nav ul {
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .footer-links-group {
+        justify-content: center;
+        text-align: left;
+    }
+  .header-container, .data-insight-section .container, .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        display: flex;
+    }
+    .main-nav ul {
+        margin-top: 15px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .hero-content h1 {
+        font-size: 2.5rem;
+    }
+    .footer-links-group {
+        justify-content: center;
+        text-align: left;
+    }
+
+}
